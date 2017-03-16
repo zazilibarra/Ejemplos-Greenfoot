@@ -16,6 +16,17 @@ public class Escenario extends World
             System.out.println("Click en el mundo");
             MouseInfo raton = Greenfoot.getMouseInfo();
             System.out.println("Coordenadas x = " + raton.getX() + " y = " + raton.getY());
+            añadePelota();
+        }
+    }
+    
+    public void añadePelota()
+    {
+        MouseInfo mouse = Greenfoot.getMouseInfo();
+        World mundo = getWorld();       
+        if(Greenfoot.mouseClicked(null))
+        {
+            mundo.addObject(new Pelota(), mouse.getX(), mouse.getY());
         }
     }
 }
