@@ -6,6 +6,7 @@ class.Jugado.image=woman01.png
 class.Jugado.superclass=greenfoot.Actor
 class.Pelota.image=steel-ball.png
 class.Pelota.superclass=greenfoot.Actor
+<<<<<<< HEAD
 dependency1.from=Disparo
 dependency1.to=Pelota
 dependency1.type=UsesDependency
@@ -28,13 +29,32 @@ mainWindow.x=-7
 mainWindow.y=0
 package.numDependencies=4
 package.numTargets=4
+=======
+dependency1.from=Escenario
+dependency1.to=Pelota
+dependency1.type=UsesDependency
+editor.fx.0.height=984
+editor.fx.0.width=804
+editor.fx.0.x=0
+editor.fx.0.y=0
+mainWindow.height=1000
+mainWindow.width=1296
+mainWindow.x=-8
+mainWindow.y=-8
+package.numDependencies=1
+package.numTargets=2
+>>>>>>> origin/master
 project.charset=UTF-8
 readme.height=58
 readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
+<<<<<<< HEAD
 simulation.speed=50
+=======
+simulation.speed=44
+>>>>>>> origin/master
 target1.height=50
 target1.name=Pelota
 target1.showInterface=false
